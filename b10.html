@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let soDienMoi = +prompt(" Nhập số điện mới");
+    let soDienCu = +prompt(" Nhập số điện cũ");
+    let tieuThu = (soDienMoi - soDienCu);
+    if (tieuThu <= 100) {
+        alert("số tiền phải đóng là " + tieuThu * 1500);
+    } else if (tieuThu <= 200) {
+        alert("số tiền phải đóng là " + tieuThu * 2500);
+    } else {
+        alert("số tiền phải đóng là " + tieuThu * 3200);
+    }
+</script>
+</body>
+</html>

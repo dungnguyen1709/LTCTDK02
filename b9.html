@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = +prompt("Nhập độ dài cạnh a");
+    let b = +prompt("Nhập độ dài cạnh b");
+    let c = +prompt("Nhập độ dài cạnh c");
+    if (a < 0 || b < 0 || c < 0) {
+        alert(" không phải là tam giác");
+    } else if (a + b > c && b + c > a && a + c > b) {
+        alert(" Là một tam giác");
+    } else {
+        alert(" không phải là tam giác");
+    }
+</script>
+</body>
+</html>
